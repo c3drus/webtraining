@@ -1,26 +1,31 @@
-# CoreSprint Training Coach
+# WebTraining · CoreSprint Coach
 
-A static calisthenics and abs training dashboard for the 30-minute, 6-day weekly plan.
+A fully featured static calisthenics training app for the 30-minute, 6-day abdominal development plan.
 
 ## Features
 
-- Day A / Day B / Recovery selection based on weekday
-- 30-minute workout timer
-- Workout checklist with local progress tracking
-- Weekly progressive overload guidance
-- Nutrition habit tracking
-- Exercise technique cards with inline SVG graphics
-- No build step and no third-party dependencies
+- Day A / Day B / Recovery auto-selection by weekday
+- Session timer with progress bar
+- Workout block checklist
+- Actual reps/time and RPE logging
+- Session notes
+- Local workout history and 14-day completion strip
+- Weekly progressive overload planner
+- Nutrition habit checklist
+- Exercise guide cards with inline SVG movement graphics
+- Modal guide details with cues, mistakes, and scaling advice
+- Light/dark theme toggle
+- Export/import local training data as JSON
+- Fully static: no build step and no external dependencies
 
-## Deployment
+## GitHub Pages
 
-This is a single-file static site. Enable GitHub Pages from the repository root:
+This repo is ready for GitHub Pages from the repository root:
 
-1. Settings → Pages
-2. Source: Deploy from branch
-3. Branch: `main`
-4. Folder: `/ (root)`
+- Source: Deploy from branch
+- Branch: `main`
+- Folder: `/ (root)`
 
-The site should then be available at:
+Live URL:
 
 https://c3drus.github.io/webtraining/
